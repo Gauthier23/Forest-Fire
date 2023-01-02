@@ -18,7 +18,7 @@ from random import*
 ###---Fonction dessinant la matrice---###
     
 def dam():
-    #-double boucles parcourant chaque cellule du canvas-#
+    #-double boucle parcourant chaque cellule du canvas-#
     for y in range(0, side, cell):
         for x in range(0, side, cell):
             #-création d'une cellule associée à une position-#
@@ -59,9 +59,9 @@ def draw():
     can.delete(ALL)  # supression de l'ancien Canvas
     dam()            # recréation via fonction de la matrice neutre
     
-    #-parcours des coordonnés dans le dictionnaire temp-#
+    #-parcours des coordonnées dans le dictionnaire temp-#
     for x, y in temp:
-        fill = ""   #remplissage vide par défault
+        fill = ""   #remplissage vide par défaut
         #-forêt-#
         if temp[x, y] == 1:   
             fill = "darkgreen"
@@ -93,7 +93,7 @@ def calculer():
     #-liste des cellules limitrophes directes-#
     neighbors = [(-1, 0), (0, -1), (0, +1), (+1, 0)]
     
-    #-parcours des coordonnés dans le dictionnaire principal-#
+    #-parcours des coordonnées dans le dictionnaire principal-#
     for x, y in dico:
         if dico[x, y] == 2: # cellule en feu
             temp[x, y] = 3  # devient en cendre
@@ -140,7 +140,7 @@ def stop():
     flag = 0
 
 
-###---Fonction permettant de recommancer un nouveau germe---###
+###---Fonction permettant de recommencer un nouveau germe---###
 
 def reset():
     global temp, dico, gen_count
