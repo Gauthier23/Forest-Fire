@@ -2,15 +2,15 @@
 This code was created with Python 3. It is based on the Tkinter graphics library. This code was created by Gauthier Guyaz in the context of a maturity work dealing with cellular automata and its applications.
 
 
-#Summary
+# Summary
 This simulation deals with the propagation of forest fires using a cellular automaton. The program uses the tkinter library to create a graphical interface that includes a canvas on which the automaton is drawn, as well as several buttons and sliders to control the simulation. The program also uses an appendix file called WindVector that contains functions to rasterize a list wind vector from the wind angle and speed. The program uses a main dictionary and a temporary dictionary to store the state of the cells in the automaton, and uses several functions to update these dictionaries, draw the automaton on the canvas, and manage the repetition of the automaton generations over time. Finally, the program contains functions to restart a new simulation, generate a random seed and add a LIDAR map to the simulation. This code is voluntarily entirely functional oriented for the advantages that this can offer in terms of simplicity speed, readability and robustness.
 
-#Cellular Automaton
+# Cellular Automaton
 A cellular automaton is made of "cells", which can take several states. Each cell has a certain neighborhood which influences the transition rule to reach the next generation. 
 
 The initial layout of the automaton is called "germ".
 
-#LIDAR technology
+# LIDAR technology
 The different tiles proposed for the simulations are real biotopes. 
 
 It was possible to retrieve their LIDAR data from the [Swiss Confederation website](https://www.swisstopo.admin.ch/fr/geodata/height/surface3d.html) with the swissSURFACE3D program. 
@@ -19,7 +19,7 @@ They were then processed with the "CloudCompare" software to produce encrypted i
 
 This allows us to import with some precision the position of each tree. 
 
-#Formal definition
+# Formal definition
 
 - Two dimensions
 
@@ -34,7 +34,7 @@ on the basis of the cells affected by the wind.
 will take the state of fire at the next generation.
   - Any cell in fire will take at the next generation the state of ash.
 
-#General design
+# General design
 
 Several devices allow the user to control the progress of the
 of the forest fire simulation. They allow to launch, pause, reset and exit the simulation and quit the simulation, and to generate cell generations, create a seed.
@@ -53,5 +53,5 @@ a map of the forest.
 
 It is also possible to left-click on a cell to transform it into a tree, click on it again to cancel. And right click to set a cell on fire.
 
-#Screenshots 
+# Screenshots 
 
