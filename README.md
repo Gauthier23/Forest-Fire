@@ -57,7 +57,6 @@ It is also possible to left-click on a cell to transform it into a tree, click o
 
 <p align="center">
   <img src="./ExempleSFF.gif" />
-  Example of a tile
 </p>
 
 
