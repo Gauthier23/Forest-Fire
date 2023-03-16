@@ -55,7 +55,10 @@ It is also possible to left-click on a cell to transform it into a tree, click o
 
 # Screenshots 
 
-![Example of a tile](./ExempleSFF.gif)
+<p align="center">
+  <img src="./ExempleSFF.gif" />
+  Example of a tile
+</p>
 
 
 
