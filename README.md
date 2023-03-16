@@ -54,6 +54,7 @@ a map of the forest.
 It is also possible to left-click on a cell to transform it into a tree, click on it again to cancel. And right click to set a cell on fire.
 
 # Screenshots 
+## Example of a tile
 
 <p align="center">
   <img src="./ExempleSFF.gif" />
