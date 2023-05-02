@@ -15,7 +15,7 @@ The different tiles proposed for the simulations are real biotopes.
 
 It was possible to retrieve their LIDAR data from the [Swiss Confederation website](https://www.swisstopo.admin.ch/fr/geodata/height/surface3d.html) with the swissSURFACE3D program. 
 
-They were then processed with the "CloudCompare" software to produce encrypted images in PNG format. 
+They were then processed with the "CloudCompare" software to produce encoded images in PNG format. 
 
 This allows us to import with some precision the position of each tree. 
 
